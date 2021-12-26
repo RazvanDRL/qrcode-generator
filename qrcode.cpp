@@ -49,7 +49,8 @@ int main()
     encryption = "WEP";
     break;
   default:
-    cout << "\nCriptare invalida! Reincearca.";
+    cout << "Criptare invalida! Reincearca.\n";
+    _sleep(3000);
     return 0;
   }
   cout << "Introdu parola wifi-ului tau: ";
